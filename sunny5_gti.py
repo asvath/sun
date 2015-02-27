@@ -4,7 +4,7 @@ from astropy.time import Time
 import numpy as np
 import matplotlib.pyplot as plt
 
-for j in range(9,317):
+for j in range(85,317):
 	home="/Software/all_weeks"
 	datafile="%s/lat_photon_weekly_w%03d_p202_v001_gti.fits" %(home,j)
 	filename="gti_sun_photon_weekly_w%03d_p202_v001" %(j) #z more than 100 and less than 110
